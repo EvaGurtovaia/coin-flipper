@@ -1,0 +1,11 @@
+.Coin {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+.CoinPic {
+    width: 100px;
+    height: 100px;
+}

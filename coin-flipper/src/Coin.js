@@ -1,15 +1,12 @@
 import React, { Component } from "react";
 import "./Coin.css";
 
-
-
 class Coin extends Component {
     render() {
-        let faceImgSrc = `${coinFaceAPI}`;
-        let tailImgSrc = `${coinTailAPI}`;
         return (
-            <div>
-                <img src={faceImgSrc} alt="" />
+          
+            <div className="Coin">
+                <img  className="CoinPic"src={this.props.data.imgSrc} alt={this.props.data.side} />
             </div>
         );
     }
